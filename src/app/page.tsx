@@ -14,8 +14,7 @@ import {ComboBox, ComboBoxItem} from "@/app/component/ui/combobox";
 import {DateField} from "@/app/component/ui/date-field";
 import {DatePicker} from "@/app/component/ui/date-picker";
 import {DropZone, Text} from "@/app/component/ui/drop-zone";
-import {type} from "node:os";
-import {ProgressBar} from "@/app/component/ui/progress-bar";
+// import {ProgressBar} from "@/app/component/ui/progress-bar";
 import {Radio, RadioGroup} from "./component/ui/radio-group";
 import {Select, SelectItem} from "@/app/component/ui/select";
 import {Separator} from "@/app/component/ui/separator";
@@ -27,6 +26,7 @@ import {Cell, Column, Row, Table, TableBody, TableHeader} from "@/app/component/
 import {Tab, TabList, TabPanel, TabPanels, Tabs} from "@/app/component/ui/tabs";
 import {Cog6ToothIcon, FolderIcon, HomeIcon, MagnifyingGlassIcon} from "@heroicons/react/24/outline";
 import {Label} from "@/app/component/ui/field";
+import {TimeField} from "@/app/component/ui/time-field";
 
 
 export  default function Home() {
@@ -128,13 +128,6 @@ export  default function Home() {
                   {content || 'Drop or paste text or images here'}
               </Text>
           </DropZone>
-
-          <ProgressBar
-              label={'loading...'}
-              maxValue={150}
-              value={50}
-          />
-
 
           <div>
               <RadioGroup
@@ -272,8 +265,9 @@ export  default function Home() {
                   </TabPanel>
               </TabPanels>
           </Tabs>
+
+          <TimeField label={'Time'}/>
       </main>
     </>
   );
 }
-
