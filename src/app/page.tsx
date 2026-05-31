@@ -159,6 +159,7 @@ export  default function Home() {
               formatOptions={{style: "decimal"}} />
 
           <Switch>Low power mode</Switch>
+          <Switch>Hight power mode</Switch>
 
           <Form>
               <TextField label={'Username'} isRequired placeholder={'Silahkan Isikan username'}/>
