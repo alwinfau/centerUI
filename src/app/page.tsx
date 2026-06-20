@@ -36,7 +36,9 @@ export  default function Home() {
   return (
     <>
       <main className="flex flex-wrap mx-auto w-3/4 gap-3 w-max-32 items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        
+          <Button isPending>
+              Presme
+          </Button>
 
 
           <DialogTrigger isOpen={isOpen} onOpenChange={setIsOpen}>
