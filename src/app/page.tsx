@@ -261,7 +261,7 @@ export  default function Home() {
                   <TabPanel id="settings" className="flex flex-wrap item-start gap-2">
                       <Cog6ToothIcon className={'size-[18px]'} />
                       <Label>
-                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus atque blanditiis cupiditate, deleniti doloremque esse in iste minima nulla placeat provident rerum soluta, tempora! Animi cumque ea eligendi porro ullam.
+                          Lorem
                       </Label>
                   </TabPanel>
               </TabPanels>
