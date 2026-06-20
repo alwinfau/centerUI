@@ -48,18 +48,9 @@ export  default function Home() {
 
 
 
-          
 
-          <ComboBox
-              label="Favorite Animal"
-              placeholder="Select an animal">
-              <ComboBoxItem>Aardvark</ComboBoxItem>
-              <ComboBoxItem>Cat</ComboBoxItem>
-              <ComboBoxItem>Dog</ComboBoxItem>
-              <ComboBoxItem>Kangaroo</ComboBoxItem>
-              <ComboBoxItem>Panda</ComboBoxItem>
-              <ComboBoxItem>Snake</ComboBoxItem>
-          </ComboBox>
+
+          
 
           <DateField label="Date" />
 
