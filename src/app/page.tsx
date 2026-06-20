@@ -42,9 +42,9 @@ export  default function Home() {
 
 
 
-          
 
-          <Calendar/>
+
+          
 
           <div className={'flex gap-4 items-center justify-center'}>
               <Checkbox>Ingat Saya</Checkbox>
