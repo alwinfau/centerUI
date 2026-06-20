@@ -46,13 +46,9 @@ export  default function Home() {
 
 
 
-          
 
-          <CheckboxGroup label={'Programming Language'}>
-              <Checkbox value={'Typescript'}>Typescript</Checkbox>
-              <Checkbox value={'Php'}>Php</Checkbox>
-              <Checkbox value={'Next JS'}>Next Js</Checkbox>
-          </CheckboxGroup>
+
+          
 
           <ComboBox
               label="Favorite Animal"
