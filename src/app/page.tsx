@@ -44,13 +44,9 @@ export  default function Home() {
 
 
 
-          
 
-          <div className={'flex gap-4 items-center justify-center'}>
-              <Checkbox>Ingat Saya</Checkbox>
-              <Checkbox isIndeterminate>Ingat Saya</Checkbox>
-              <Checkbox isDisabled>Ingat Saya</Checkbox>
-          </div>
+
+          
 
           <CheckboxGroup label={'Programming Language'}>
               <Checkbox value={'Typescript'}>Typescript</Checkbox>
