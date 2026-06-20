@@ -40,27 +40,7 @@ export  default function Home() {
               Presme
           </Button>
 
-
-          <DialogTrigger isOpen={isOpen} onOpenChange={setIsOpen}>
-              <Button>
-                  Open Command
-                  <kbd className={'font-sans text-xs ml-4 px-1 rounded-sm border border-white/20 bg-white/10"'}>
-                      ⌘ J
-                  </kbd>
-              </Button>
-              <CommandPalette
-                  isOpen={isOpen}
-                  onOpenChange={setIsOpen}>
-                  <MenuItem>Create new file...</MenuItem>
-                  <MenuItem>Create new folder...</MenuItem>
-                  <MenuItem>Assign to...</MenuItem>
-                  <MenuItem>Assign to me</MenuItem>
-                  <MenuItem>Change status...</MenuItem>
-                  <MenuItem>Change priority...</MenuItem>
-                  <MenuItem>Add label...</MenuItem>
-                  <MenuItem>Remove label...</MenuItem>
-              </CommandPalette>
-          </DialogTrigger>
+          
 
           <Breadcrumbs>
               <Breadcrumb href={"#"}>Beranda</Breadcrumb>
